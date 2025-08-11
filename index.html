@@ -1,0 +1,514 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12:49 AM 8/11/2025 Mose AutoMarket - Find Your Dream Car</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-car"></i>
+                    <span>AutoMarket</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Inventory</a></li>
+                        <li><a href="#">Sell Car</a></li>
+                        <li><a href="#">Financing</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-buttons">
+                    <button class="btn btn-outline"><i class="fas fa-user"></i> Sign In</button>
+                    <button class="btn btn-primary"><i class="fas fa-car"></i> Sell Car</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Find Your Dream Car Today</h1>
+                <p>Browse thousands of new and used cars from trusted dealers and private sellers</p>
+                <div class="hero-search">
+                    <input type="text" placeholder="Search by make, model, or keyword">
+                    <button>Search Cars</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-container">
+                <div class="filter-group">
+                    <select>
+                        <option value="">All Makes</option>
+                        <option value="toyota">Toyota</option>
+                        <option value="honda">Honda</option>
+                        <option value="ford">Ford</option>
+                        <option value="bmw">BMW</option>
+                        <option value="mercedes">Mercedes</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <select>
+                        <option value="">All Models</option>
+                        <option value="camry">Camry</option>
+                        <option value="civic">Civic</option>
+                        <option value="mustang">Mustang</option>
+                        <option value="x5">X5</option>
+                        <option value="c-class">C-Class</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <select>
+                        <option value="">Price Range</option>
+                        <option value="0-10000">Under $10k</option>
+                        <option value="10000-20000">$10k - $20k</option>
+                        <option value="20000-30000">$20k - $30k</option>
+                        <option value="30000-50000">$30k - $50k</option>
+                        <option value="50000+">Over $50k</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <select>
+                        <option value="">Vehicle Type</option>
+                        <option value="sedan">Sedan</option>
+                        <option value="suv">SUV</option>
+                        <option value="truck">Truck</option>
+                        <option value="coupe">Coupe</option>
+                        <option value="hatchback">Hatchback</option>
+                    </select>
+                </div>
+                <button class="filter-btn">Filter Results</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="container">
+        <h2 class="section-title">Popular Categories</h2>
+        <div class="categories">
+            <div class="category-card">
+                <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                <div class="category-info">
+                    <h3>SUVs</h3>
+                    <p>Perfect for families and adventures</p>
+                    <a href="#" class="btn btn-outline">View All</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                <div class="category-info">
+                    <h3>Sedans</h3>
+                    <p>Comfortable and efficient daily drivers</p>
+                    <a href="#" class="btn btn-outline">View All</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                <div class="category-info">
+                    <h3>Trucks</h3>
+                    <p>Powerful vehicles for work and play</p>
+                    <a href="#" class="btn btn-outline">View All</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                <div class="category-info">
+                    <h3>Luxury</h3>
+                    <p>Premium vehicles with advanced features</p>
+                    <a href="#" class="btn btn-outline">View All</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cars Section -->
+    <section class="container">
+        <h2 class="section-title">Featured Cars</h2>
+        <div class="cars-container">
+            <!-- Sidebar Filters -->
+            <div class="sidebar">
+                <h3>Refine Results</h3>
+                
+                <div class="filter-option">
+                    <h4>Vehicle Type</h4>
+                    <div class="filter-items">
+                        <div class="filter-item">
+                            <input type="checkbox" id="type-sedan">
+                            <label for="type-sedan">Sedan</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" id="type-suv">
+                            <label for="type-suv">SUV</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" id="type-truck">
+                            <label for="type-truck">Truck</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" id="type-coupe">
+                            <label for="type-coupe">Coupe</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" id="type-hatchback">
+                            <label for="type-hatchback">Hatchback</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="filter-option">
+                    <h4>Price Range</h4>
+                    <input type="range" min="0" max="100000" value="50000" class="price-slider">
+                    <div class="price-values">
+                        <span>$0</span>
+                        <span>$100,000</span>
+                    </div>
+                </div>
+                
+                <div class="filter-option">
+                    <h4>Car Class</h4>
+                    <div class="filter-items">
+                        <div class="filter-item">
+                            <input type="checkbox" id="class-economy">
+                            <label for="class-economy">Economy</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" id="class-family">
+                            <label for="class-family">Family</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" id="class-performance">
+                            <label for="class-performance">Performance</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" id="class-executive">
+                            <label for="class-executive">Executive</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" id="class-luxury">
+                            <label for="class-luxury">Luxury</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="filter-option">
+                    <h4>Year</h4>
+                    <div class="filter-items">
+                        <div class="filter-item">
+                            <input type="checkbox" id="year-2023">
+                            <label for="year-2023">2023</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" id="year-2022">
+                            <label for="year-2022">2022</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" id="year-2021">
+                            <label for="year-2021">2021</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" id="year-2020">
+                            <label for="year-2020">2020</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" id="year-2019">
+                            <label for="year-2019">2019</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Car Listings -->
+            <div class="cars-grid">
+                <!-- Car 1 -->
+                <div class="car-card">
+                    <div class="car-img" style="background-image: url('https://images.unsplash.com/photo-1553440569-bcc63803a83d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="car-badge">NEW</div>
+                    </div>
+                    <div class="car-info">
+                        <div class="car-meta">
+                            <span>Toyota</span>
+                            <span>2023</span>
+                        </div>
+                        <h3 class="car-title">Toyota Camry XLE</h3>
+                        <div class="car-features">
+                            <div class="car-feature">
+                                <i class="fas fa-gas-pump"></i> Hybrid
+                            </div>
+                            <div class="car-feature">
+                                <i class="fas fa-cogs"></i> Automatic
+                            </div>
+                            <div class="car-feature">
+                                <i class="fas fa-road"></i> 12k mi
+                            </div>
+                        </div>
+                        <div class="car-price">$28,999</div>
+                        <div class="car-actions">
+                            <a href="#" class="car-btn btn-view">
+                                <i class="fas fa-eye"></i> View Details
+                            </a>
+                            <a href="#" class="car-btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Car 2 -->
+                <div class="car-card">
+                    <div class="car-img" style="background-image: url('https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="car-badge">CERTIFIED</div>
+                    </div>
+                    <div class="car-info">
+                        <div class="car-meta">
+                            <span>Ford</span>
+                            <span>2022</span>
+                        </div>
+                        <h3 class="car-title">Ford Explorer Limited</h3>
+                        <div class="car-features">
+                            <div class="car-feature">
+                                <i class="fas fa-gas-pump"></i> Gasoline
+                            </div>
+                            <div class="car-feature">
+                                <i class="fas fa-cogs"></i> Automatic
+                            </div>
+                            <div class="car-feature">
+                                <i class="fas fa-road"></i> 18k mi
+                            </div>
+                        </div>
+                        <div class="car-price">$35,750</div>
+                        <div class="car-actions">
+                            <a href="#" class="car-btn btn-view">
+                                <i class="fas fa-eye"></i> View Details
+                            </a>
+                            <a href="#" class="car-btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Car 3 -->
+                <div class="car-card">
+                    <div class="car-img" style="background-image: url('https://images.unsplash.com/photo-1511919884226-fd3cad34687c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="car-badge">LOW MILEAGE</div>
+                    </div>
+                    <div class="car-info">
+                        <div class="car-meta">
+                            <span>BMW</span>
+                            <span>2021</span>
+                        </div>
+                        <h3 class="car-title">BMW X5 xDrive40i</h3>
+                        <div class="car-features">
+                            <div class="car-feature">
+                                <i class="fas fa-gas-pump"></i> Gasoline
+                            </div>
+                            <div class="car-feature">
+                                <i class="fas fa-cogs"></i> Automatic
+                            </div>
+                            <div class="car-feature">
+                                <i class="fas fa-road"></i> 15k mi
+                            </div>
+                        </div>
+                        <div class="car-price">$52,900</div>
+                        <div class="car-actions">
+                            <a href="#" class="car-btn btn-view">
+                                <i class="fas fa-eye"></i> View Details
+                            </a>
+                            <a href="#" class="car-btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Car 4 -->
+                <div class="car-card">
+                    <div class="car-img" style="background-image: url('https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="car-badge">PREMIUM</div>
+                    </div>
+                    <div class="car-info">
+                        <div class="car-meta">
+                            <span>Mercedes</span>
+                            <span>2023</span>
+                        </div>
+                        <h3 class="car-title">Mercedes C-Class</h3>
+                        <div class="car-features">
+                            <div class="car-feature">
+                                <i class="fas fa-gas-pump"></i> Gasoline
+                            </div>
+                            <div class="car-feature">
+                                <i class="fas fa-cogs"></i> Automatic
+                            </div>
+                            <div class="car-feature">
+                                <i class="fas fa-road"></i> 8k mi
+                            </div>
+                        </div>
+                        <div class="car-price">$45,600</div>
+                        <div class="car-actions">
+                            <a href="#" class="car-btn btn-view">
+                                <i class="fas fa-eye"></i> View Details
+                            </a>
+                            <a href="#" class="car-btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Car 5 -->
+                <div class="car-card">
+                    <div class="car-img" style="background-image: url('https://images.unsplash.com/photo-1550355291-bbee04a92027?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="car-badge">CLEAN TITLE</div>
+                    </div>
+                    <div class="car-info">
+                        <div class="car-meta">
+                            <span>Honda</span>
+                            <span>2022</span>
+                        </div>
+                        <h3 class="car-title">Honda Civic Touring</h3>
+                        <div class="car-features">
+                            <div class="car-feature">
+                                <i class="fas fa-gas-pump"></i> Gasoline
+                            </div>
+                            <div class="car-feature">
+                                <i class="fas fa-cogs"></i> Automatic
+                            </div>
+                            <div class="car-feature">
+                                <i class="fas fa-road"></i> 14k mi
+                            </div>
+                        </div>
+                        <div class="car-price">$24,300</div>
+                        <div class="car-actions">
+                            <a href="#" class="car-btn btn-view">
+                                <i class="fas fa-eye"></i> View Details
+                            </a>
+                            <a href="#" class="car-btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Car 6 -->
+                <div class="car-card">
+                    <div class="car-img" style="background-image: url('https://images.unsplash.com/photo-1580274437635-89b832e6f7b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="car-badge">BEST DEAL</div>
+                    </div>
+                    <div class="car-info">
+                        <div class="car-meta">
+                            <span>Tesla</span>
+                            <span>2023</span>
+                        </div>
+                        <h3 class="car-title">Tesla Model 3</h3>
+                        <div class="car-features">
+                            <div class="car-feature">
+                                <i class="fas fa-bolt"></i> Electric
+                            </div>
+                            <div class="car-feature">
+                                <i class="fas fa-cogs"></i> Automatic
+                            </div>
+                            <div class="car-feature">
+                                <i class="fas fa-road"></i> 6k mi
+                            </div>
+                        </div>
+                        <div class="car-price">$42,500</div>
+                        <div class="car-actions">
+                            <a href="#" class="car-btn btn-view">
+                                <i class="fas fa-eye"></i> View Details
+                            </a>
+                            <a href="#" class="car-btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>AutoMarket</h3>
+                    <p>Your trusted partner in finding the perfect vehicle. We connect buyers with sellers for a seamless car buying experience.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Inventory</a></li>
+                        <li><a href="#">Sell Your Car</a></li>
+                        <li><a href="#">Financing</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Car Types</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">New Cars</a></li>
+                        <li><a href="#">Used Cars</a></li>
+                        <li><a href="#">Certified Pre-Owned</a></li>
+                        <li><a href="#">SUVs & Crossovers</a></li>
+                        <li><a href="#">Trucks & Vans</a></li>
+                        <li><a href="#">Luxury Vehicles</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Auto Lane, Motor City, MC 12345</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>(555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@automarket.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>+254711604885</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2023 Mose AutoMarket. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
